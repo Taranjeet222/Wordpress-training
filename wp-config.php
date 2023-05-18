@@ -20,6 +20,11 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+
+
 define( 'DB_NAME', 'wpdb' );
 
 /** Database username */
@@ -80,6 +85,7 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
+define('WP_DEBUG_LOG', '/var/www/wordpress/wp-content/error.log');
 
 /* Add any custom values between this line and the "stop editing" line. */
 

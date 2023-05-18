@@ -32,3 +32,12 @@
     transform: scale(1.05);
     z-index: 1;
 }
+.widget-card{
+    width: 20%;
+    margin: 5px;
+}
+.dghc-widget{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
